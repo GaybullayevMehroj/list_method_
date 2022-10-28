@@ -8,9 +8,9 @@
         list: return answer
 */
 List func(List numbers, int i) {
-  return [numbers.getRange(i, i + 1)];
+  return numbers.sublist(i, i + 1);
 }
 
 void main() {
-  print(func([1, 2, 3, 4, 5], 2));
+  print(func([1, 2, 3, 4, 5], 4));
 }
