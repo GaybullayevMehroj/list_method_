@@ -6,5 +6,16 @@
     Returns:
         list: return answer
 */
+List func(List fruits) {
+  for (int i = 0; i < fruits.length; i++) {
+    if (fruits[i] == 'apple') {
+      fruits.removeAt(i);
+      i--;
+    }
+  }
+  return fruits;
+}
 
-void main() {}
+void main() {
+  print(func(['apple', 'kiwi', 'apple', 'apple', 'kiwi']));
+}
