@@ -7,11 +7,11 @@
     Returns:
         list: return answer
 */
-List function(List fruits1, List fruits2) {
+List func(List fruits1, List fruits2) {
   fruits1.addAll(fruits2);
   return fruits1;
 }
 
 void main() {
-  print(function(['olma', 'banan'], ['kiwi', 'olcha']));
+  print(func(['olma', 'banan'], ['kiwi', 'olcha']));
 }
