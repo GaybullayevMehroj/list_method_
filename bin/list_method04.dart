@@ -7,8 +7,8 @@
     Returns:
         list: return answer
 */
-List func(List numbers, int i) {
-  return numbers.sublist(i, i + 1);
+int func(List numbers, int i) {
+  return numbers[i];
 }
 
 void main() {
