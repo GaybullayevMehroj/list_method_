@@ -12,5 +12,5 @@ List function(List<int> numbers, int i) {
 }
 
 void main() {
-  print(function([1, 2, 3, 4, 5], 4));
+  print(function([1, 2, 3, 4, 5], 3));
 }
