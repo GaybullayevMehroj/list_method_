@@ -9,5 +9,10 @@
     Returns:
         list: return answer
 */
+List func(List numbers1, List numbers2) {
+  return numbers1 + numbers2;
+}
 
-void main() {}
+void main() {
+  print(func([1, 2, 3], [4, 5, 6]));
+}
