@@ -7,7 +7,7 @@
     Returns:
         list: return answer
 */
-List func(List<int> numbers, int i) {
+List func(List numbers, int i) {
   return [numbers.getRange(i, i + 1)];
 }
 
