@@ -7,5 +7,11 @@
     Returns:
         list: return answer
 */
+List function(List fruits, String x) {
+  fruits.add(x);
+  return fruits;
+}
 
-void main() {}
+void main() {
+  print(function(['olma', 'olcha'], 'kiwi'));
+}
