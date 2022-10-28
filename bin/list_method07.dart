@@ -6,5 +6,16 @@
     Returns:
         int: return answer
 */
+int func(List list01) {
+  int sum = 0;
+  for (int i = 0; i < list01.length; i++) {
+    if (list01[i] == 0) {
+      sum += 1;
+    }
+  }
+  return sum;
+}
 
-void main() {}
+void main() {
+  print(func([1, 0, 1, 2, 0, 0, 0]));
+}
