@@ -7,10 +7,10 @@
     Returns:
         list: return answer
 */
-List function(List<int> numbers, int i) {
+List func(List<int> numbers, int i) {
   return [numbers.getRange(i, i + 1)];
 }
 
 void main() {
-  print(function([1, 2, 3, 4, 5], 3));
+  print(func([1, 2, 3, 4, 5], 2));
 }
